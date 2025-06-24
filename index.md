@@ -9,7 +9,7 @@ layout: default
         <h3>
   		    <a href="{{ post.url }}">{{ post.title }}</a>
         </h3>
-        <p>Date added: {{ post.date | date: "%-d %B %Y" }}</p>
+        <p class="text-red-500 text-3xl font-bold">Date added: {{ post.date | date: "%-d %B %Y" }}</p>
         <p>By <a href="{{ post.creator_url }}">{{ post.creator }}</a></p>
         <p>Category: {{ post.categories }}</p>
         <p> Tags:
