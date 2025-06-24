@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
-  <body>
+  <body class="min-h-screen flex flex-col max-w-[1200px] mx-auto">
     {% include header.html %}
-      <div class="content">
-        {{ content }}
-      </div>
+    <main class="flex-1">
+      {{ content }}
+    </main>
     {% include footer.html %}
     {% include analytics.html %} 
   </body>
