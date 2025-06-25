@@ -1,2 +1,14 @@
 @import 'tailwindcss';
 @import 'daisyui/daisyui.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.SearchBoxRoot {
+  @apply p-8;
+}
+
+.SearchBoxInput {
+  @apply p-2 w-full rounded-md bg-white;
+}
