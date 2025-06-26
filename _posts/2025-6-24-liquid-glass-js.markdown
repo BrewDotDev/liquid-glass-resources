@@ -7,4 +7,5 @@ tags: [javascript, SVG]
 url: https://github.com/shuding/liquid-glass
 creator: Shu Ding
 creator_url: https://x.com/shuding_
+description: Implement Liquid Glass in your website with SVG filters.
 ---

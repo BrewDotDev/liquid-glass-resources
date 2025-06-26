@@ -7,4 +7,5 @@ tags: [Figma]
 url: https://www.figma.com/community/file/1514673971543878596
 creator: Augustas
 creator_url: https://x.com/AugustasDesign
+description: Use Liquid Glass components in Figma.
 ---

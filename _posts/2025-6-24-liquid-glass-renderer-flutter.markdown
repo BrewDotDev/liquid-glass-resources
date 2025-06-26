@@ -7,4 +7,5 @@ tags: [flutter]
 url: https://pub.dev/packages/liquid_glass_renderer
 creator: Tim Lehmann
 creator_url: https://x.com/imadetheseworks
+description: Implement Liquid Glass in Flutter with Liquid Glass Renderer.
 ---

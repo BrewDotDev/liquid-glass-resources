@@ -20,10 +20,13 @@
 title: Liquid Glass Resources
 url: liquidglassresources.com # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-description: >- # this means to ignore newlines until "baseurl:"
+tagline: >- # this means to ignore newlines until "baseurl:"
   Everything you need to elevate your UI with Liquid Glass effects
 
 algolia:
   application_id: 'SNYK0RFNCF'
   index_name: 'resources'
   search_api_key: '5c4f681a01931daa54a1008a3429e684'
+
+plugins:
+  - jekyll-seo-tag

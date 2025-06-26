@@ -7,4 +7,5 @@ tags: [flutter]
 url: https://github.com/renancaraujo/liquido
 creator: Renan Caraujo
 creator_url: https://x.com/reNotANumber
+description: Implement Liquid Glass in Flutter with Liquido.
 ---

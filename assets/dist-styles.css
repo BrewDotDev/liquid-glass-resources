@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-500: oklch(63.7% 0.237 25.331);
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-600: oklch(44.6% 0.03 256.802);
     --color-stone-50: oklch(98.5% 0.001 106.423);
@@ -206,9 +207,6 @@
   .my-16 {
     margin-block: calc(var(--spacing) * 16);
   }
-  .my-24 {
-    margin-block: calc(var(--spacing) * 24);
-  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -217,12 +215,6 @@
   }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
-  }
-  .mt-16 {
-    margin-top: calc(var(--spacing) * 16);
-  }
-  .mt-24 {
-    margin-top: calc(var(--spacing) * 24);
   }
   .mt-32 {
     margin-top: calc(var(--spacing) * 32);
@@ -238,9 +230,6 @@
   }
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
-  }
-  .mb-16 {
-    margin-bottom: calc(var(--spacing) * 16);
   }
   .mb-24 {
     margin-bottom: calc(var(--spacing) * 24);
@@ -308,11 +297,14 @@
   .items-center {
     align-items: center;
   }
+  .\!justify-between {
+    justify-content: space-between !important;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
   .justify-center {
     justify-content: center;
-  }
-  .justify-end {
-    justify-content: flex-end;
   }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
@@ -326,23 +318,20 @@
   .rounded {
     border-radius: 0.25rem;
   }
+  .\!bg-red-500 {
+    background-color: var(--color-red-500) !important;
+  }
   .bg-stone-50 {
     background-color: var(--color-stone-50);
   }
   .bg-white {
     background-color: var(--color-white);
   }
-  .p-2 {
-    padding: calc(var(--spacing) * 2);
-  }
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
   .p-8 {
     padding: calc(var(--spacing) * 8);
-  }
-  .px-1 {
-    padding-inline: calc(var(--spacing) * 1);
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
@@ -359,23 +348,8 @@
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
   }
-  .pt-8 {
-    padding-top: calc(var(--spacing) * 8);
-  }
-  .pt-16 {
-    padding-top: calc(var(--spacing) * 16);
-  }
-  .pt-32 {
-    padding-top: calc(var(--spacing) * 32);
-  }
-  .pb-4 {
-    padding-bottom: calc(var(--spacing) * 4);
-  }
   .pb-8 {
     padding-bottom: calc(var(--spacing) * 8);
-  }
-  .pb-16 {
-    padding-bottom: calc(var(--spacing) * 16);
   }
   .text-center {
     text-align: center;
@@ -416,6 +390,9 @@
   }
   .text-gray-600 {
     color: var(--color-gray-600);
+  }
+  .capitalize {
+    text-transform: capitalize;
   }
   .no-underline {
     text-decoration-line: none;
