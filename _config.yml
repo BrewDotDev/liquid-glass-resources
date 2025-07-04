@@ -30,3 +30,4 @@ algolia:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
