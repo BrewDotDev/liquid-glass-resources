@@ -33,3 +33,9 @@ algolia:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/liquid-glass-resources-share-card.png
