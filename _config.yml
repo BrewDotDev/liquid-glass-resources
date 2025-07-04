@@ -22,6 +22,8 @@ url: liquidglassresources.com # the base hostname & protocol for your site, e.g.
 baseurl: "" # the subpath of your site, e.g. /blog
 tagline: >- # this means to ignore newlines until "baseurl:"
   Everything you need to elevate your UI with Liquid Glass effects
+description: >- # this means to ignore newlines until "baseurl:"
+  Everything you need to elevate your UI with Liquid Glass effects
 
 algolia:
   application_id: 'SNYK0RFNCF'
