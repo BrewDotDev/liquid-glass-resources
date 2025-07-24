@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquido
+slug: liquido-flutter
 date: 2025-06-24
 categories: development
 tags: [Flutter]

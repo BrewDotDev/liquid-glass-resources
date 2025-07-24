@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass Edge Refraction
+slug: liquid-glass-edge-refraction-figma
 date: 2025-06-26
 categories: design
 tags: [Figma]

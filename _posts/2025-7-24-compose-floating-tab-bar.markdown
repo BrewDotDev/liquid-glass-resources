@@ -1,6 +1,7 @@
 ---
 layout: post
 title: FloatingTabBar
+slug: liquid-glass-floatingtabbar-android-compose
 date: 2025-07-24
 categories: development
 tags: [Android, Jetpack Compose]

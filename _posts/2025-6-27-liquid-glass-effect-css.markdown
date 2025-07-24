@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Android Liquid Glass
+title: Liquid Glass Effect 🌟
+slug: liquid-glass-effect-css
 date: 2025-06-27
 categories: development
 tags: [CSS]

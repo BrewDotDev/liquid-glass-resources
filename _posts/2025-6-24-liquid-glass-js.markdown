@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass effect using SVG filters
+slug: liquid-glass-effect-svg-filters
 date: 2025-06-24
 categories: development
 tags: [Javascript, SVG]

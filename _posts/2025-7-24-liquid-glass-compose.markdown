@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass Compose
+slug: liquid-glass-compose-android
 date: 2025-07-24
 categories: development
 tags: [Android, Jetpack Compose]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: WWDC 2025 Liquid Glass Effect
+slug: liquid-glass-effect-css-svg
 date: 2025-07-24
 categories: development
 tags: [CSS, SVG]

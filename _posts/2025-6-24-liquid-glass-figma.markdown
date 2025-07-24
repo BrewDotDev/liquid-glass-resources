@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass component
+slug: liquid-glass-component-figma
 date: 2025-06-24
 categories: design
 tags: [Figma]

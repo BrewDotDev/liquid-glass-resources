@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass SwiftUI
+slug: liquid-glass-swiftui
 date: 2025-07-24
 categories: development
 tags: [Swift, SwiftUI]

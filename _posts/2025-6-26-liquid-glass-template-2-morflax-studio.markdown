@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass Template 2
+slug: liquid-glass-template-2-morflax-studio
 date: 2025-06-26
 categories: design
 tags: [Morflax Studio]

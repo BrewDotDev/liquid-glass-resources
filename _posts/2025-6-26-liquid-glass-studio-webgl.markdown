@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass Studio
+slug: liquid-glass-studio-webgl
 date: 2025-06-26
 categories: development
 tags: [WebGL]

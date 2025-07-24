@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Svelte Liquid Glassifier
+slug: svelte-liquid-glassifier
 date: 2025-06-26
 categories: development
 tags: [Svelte]

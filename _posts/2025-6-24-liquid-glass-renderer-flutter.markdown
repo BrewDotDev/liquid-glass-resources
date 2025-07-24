@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass Renderer
+slug: liquid-glass-renderer
 date: 2025-06-24
 categories: development
 tags: [Flutter]

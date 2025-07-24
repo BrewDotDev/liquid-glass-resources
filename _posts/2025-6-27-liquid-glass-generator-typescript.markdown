@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass Generator
+slug: liquid-glass-generator-webgl
 date: 2025-06-27
 categories: development
 tags: [WebGL, TypeScript]

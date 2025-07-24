@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Web
+slug: liquid-web-js-vue-react
 date: 2025-06-26
 categories: development
 tags: [JavaScript, Vue, React]

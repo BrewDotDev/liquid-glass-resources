@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass Element in Framer
+slug: liquid-glass-element-framer
 date: 2025-07-24
 categories: design
 tags: [Framer]

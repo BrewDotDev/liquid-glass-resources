@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass Figma Plugin
+slug: liquid-glass-figma-plugin
 date: 2025-06-26
 categories: design
 tags: [Figma]

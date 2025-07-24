@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass React
+slug: liquid-glass-in-react
 date: 2025-06-24
 categories: development
 tags: [React]

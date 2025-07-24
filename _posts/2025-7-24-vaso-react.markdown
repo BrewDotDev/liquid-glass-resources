@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Vaso
+slug: vaso-react
 date: 2025-07-24
 categories: development
 tags: [React]

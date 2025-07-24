@@ -1,6 +1,7 @@
 ---
 layout: post
 title: electron-liquid-glass
+slug: electron-liquid-glass
 date: 2025-06-26
 categories: development
 tags: [Electron]

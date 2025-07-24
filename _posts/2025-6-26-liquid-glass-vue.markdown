@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass Vue
+slug: liquid-glass-vue
 date: 2025-06-26
 categories: development
 tags: [Vue]

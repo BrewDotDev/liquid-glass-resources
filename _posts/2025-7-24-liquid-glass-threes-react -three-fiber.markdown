@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Apple Liquid Glass using Threes and React Three Fiber
+slug: liquid-glass-react-three-fiber
 date: 2025-07-24
 categories: development
 tags: [ThreeJS, React Three Fiber]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Liquid Glass effect
+slug: liquid-glass-effect-unicorn-studio
 date: 2025-06-24
 categories: design
 tags: [Unicorn Studio]

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Android Liquid Glass
+slug: android-liquid-glass
 date: 2025-06-27
 categories: development
 tags: [Android]

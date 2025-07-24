@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Glass Navbar Effect
+slug: liquid-glass-navbar-effect-webflow
 date: 2025-06-27
 categories: development
 tags: [Webflow]
