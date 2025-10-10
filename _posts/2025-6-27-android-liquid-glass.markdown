@@ -4,7 +4,7 @@ title: Android Liquid Glass
 slug: android-liquid-glass
 date: 2025-06-27
 categories: development
-tags: [Android]
+tags: [Android, Jetpack Compose]
 resource_url: https://github.com/Kyant0/AndroidLiquidGlass
 creator: Kyant
 creator_url: https://github.com/Kyant0
