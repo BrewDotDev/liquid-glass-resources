@@ -10,12 +10,8 @@ layout: default
         <div id="search-poweredby" class=""></div>
     </div>
     <div id="hits" class="grid grid-cols-3 gap-4 py-8"></div>
-    <div id="submit-resource" class="flex flex-col gap-2 px-8 py-16 my-16 card shadow-sm card-border items-center bg-white">
-        <h2 class="text-2xl font-black pb-8">Add Your Liquid Glass resource to our list at Liquid Glass Resources</h2>
-        <p class="text-center">Have a design or a developer resource focusing on Liquid Glass? Submit it to us for consideration to be listed on Liquid Glass Resources. We welcome all types of resources, including Framer projects, frameworks, libraries, code snippets, tutorials etc.</p>
-        <p class="text-center pb-8">Get quick exposure to designers and developers looking to elevate their app's UI with Liquid Glass effects.</p>
-        <p><a href="mailto:hello@brew.dev" class="link">Reach out to us via email</a>!</p>
-    <div>
+    {% include submit.html %}
+    {% include featured.html %}
 </div>
 
 <script>
