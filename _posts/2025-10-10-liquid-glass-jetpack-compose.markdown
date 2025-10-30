@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React Native Liquid Glass
+title: LiquidGlass - JetpackCompose
 slug: android-liquid-glass-jetpack-compose
 date: 2025-10-10
 categories: development
