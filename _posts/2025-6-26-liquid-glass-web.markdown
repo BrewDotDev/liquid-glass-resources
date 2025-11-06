@@ -5,7 +5,7 @@ slug: liquid-web-js-vue-react
 date: 2025-06-26
 categories: development
 tags: [JavaScript, Vue, React]
-resource_url: https://github.com/danilofiumi/liquid-glass-svelte
+resource_url: https://github.com/koirodev/liquid-web
 creator: Vitaly Koiro
 creator_url: https://github.com/koirodev
 description: Implement Liquid Glass in your website with Liquid Web
