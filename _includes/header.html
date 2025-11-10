@@ -1,9 +1,19 @@
 <header>
   <div class="flex flex-col gap-4 mb-8 mt-32">
     <h1 class="text-4xl text-center">
-      <a href="/">{{ site.title }}</a>
+      {% if page.title %}
+        {{ page.title }}
+      {% else %}
+        <a href="/">{{ site.title }}</a>
+      {% endif %}
     </h1>
 
-    <p class="text-center">Development and design toolbox to elevate your UI with Liquid Glass effects</p>
+    <p class="text-center">
+      {% if page.custom_subtitle %}
+        {{ page.custom_subtitle }}
+      {% else %}
+        Development and design toolbox to elevate your UI with Liquid Glass effects
+      {% endif %}
+    </p>
   </div>
 </header>
