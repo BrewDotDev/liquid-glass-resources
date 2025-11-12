@@ -1,5 +1,5 @@
 <header>
-  <div class="flex flex-col gap-4 mb-8 mt-32">
+  <div class="flex flex-col gap-4 mb-8 mt-32 items-center">
     <h1 class="text-4xl text-center">
       {% if page.title %}
         {{ page.title }}
@@ -8,11 +8,11 @@
       {% endif %}
     </h1>
 
-    <p class="text-center">
-      {% if page.custom_subtitle %}
-        {{ page.custom_subtitle }}
+    <p class="text-center w-[60%]">
+      {% if page.description %}
+        {{ page.description }}
       {% else %}
-        Development and design toolbox to elevate your UI with Liquid Glass effects
+        A curated directory of frameworks, code samples, and design assets for implementing Liquid Glass effects across platforms beyond iOS and macOS
       {% endif %}
     </p>
   </div>
