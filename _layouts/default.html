@@ -1,14 +1,15 @@
 <!doctype html>
-<html lang="en" class="bg-stone-50">
+<html lang="en" class="bg-stone-50 h-full">
   {% include head.html %}
-  <body>
+  <body class="min-h-screen flex flex-col">
     {% include navbar.html %}
-    <div class="flex flex-col max-w-[1200px] mx-auto">
+    <div class="flex flex-col flex-1 max-w-[1200px] mx-auto">
       {% if page.id == null %}
         {% include header.html %}
       {% endif %}
       <main class="flex-1">{{ content }}</main>
     </div>
-    {% include footer.html %} {% include analytics.html %}
+    {% include footer.html %}
+    {% include analytics.html %}
   </body>
 </html>
