@@ -1,10 +1,13 @@
 <header>
-  <div class="flex flex-col gap-4 mb-8 mt-32 items-center">
-    <h1 class="text-4xl text-center">
+  <div class="card shadow-sm bg-white flex flex-col gap-4 py-20 mt-16 mb-12 items-center">
+    <h1 class="text-4xl text-center font-bold">
       {% if page.title %}
         {{ page.title }}
       {% else %}
-        <a href="/">{{ site.title }}</a>
+        <a href="/" class="flex flex-row gap-2">
+        <img src="/assets/images/liquid-glass-resources-logo-40.png" alt="Liquid Glass Resources Logo" class="h-10 w-10" />
+        <span>{{ site.title }}</span>
+      </a>
       {% endif %}
     </h1>
 
