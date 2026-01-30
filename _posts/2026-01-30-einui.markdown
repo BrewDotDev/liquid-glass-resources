@@ -1,0 +1,14 @@
+---
+layout: post
+title: Ein UI
+slug: typescript-ein-ui
+date: 2026-01-30
+categories: development
+tags: [Typescript]
+resource_url: https://github.com/ehsanghaffar/einui
+creator: Ehsan Ghaffar
+creator_url: https://x.com/ehsanghaffar
+description: A collection of beautiful, ready-made Liquid Glass UI components
+---
+
+A collection of beautiful, ready-made Liquid Glass UI components you can preview, copy, and drop into any web app. It offers a refined frosted-glass aesthetic with accessible, responsive components built on Tailwind, shadcn/ui, and Radix UI primitives.

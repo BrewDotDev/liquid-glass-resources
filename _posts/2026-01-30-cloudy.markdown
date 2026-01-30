@@ -1,0 +1,14 @@
+---
+layout: post
+title: Cloudy
+slug: android-kotlin-multiplatform-cloudy
+date: 2026-01-30
+categories: development
+tags: [Android, iOS, macOS]
+resource_url: https://github.com/skydoves/Cloudy
+creator: Jaewoong Eum
+creator_url: https://x.com/github_skydoves
+description: Kotlin Multiplatform blur and liquid glass effect library for Compose
+---
+
+☁️ Kotlin Multiplatform blur and liquid glass effect library for Compose, with GPU-accelerated rendering and CPU fallback for older devices.

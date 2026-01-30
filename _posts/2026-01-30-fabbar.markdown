@@ -1,0 +1,14 @@
+---
+layout: post
+title: FabBar
+slug: swift-liquid-glass-fabbar
+date: 2026-01-30
+categories: development
+tags: [iOS]
+resource_url: https://github.com/ryanashcraft/FabBar
+creator: Ryan Ashcraft
+creator_url: https://x.com/ryanashcraft
+description: A faithful recreation of the iOS 26 Liquid Glass tab bar with a tinted floating action button.
+---
+
+A faithful recreation of the iOS 26 Liquid Glass tab bar with a tinted floating action button.
