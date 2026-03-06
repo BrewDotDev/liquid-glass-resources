@@ -1,0 +1,16 @@
+---
+layout: post
+title: Glasskit
+slug: ios-swift-glasskit
+date: 2026-03-05
+categories: development
+tags: [Swift, iOS]
+resource_url: https://github.com/AhmeedGamil/liquid_glass_easy
+creator: Sahil Pednekar
+creator_url: https://x.com/sahil_pednekar3
+description: A SwiftUI design toolkit showcasing Liquid Glass material templates and assets for iOS 26.
+---
+
+Liquid Glass design templates and UI assets built in SwiftUI for iOS 26 — a collection of glass-effect folder designs, custom shapes, and decorative stickers.
+<br/>
+Demo available [here](glasskit.framer.website/).
