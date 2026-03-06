@@ -20,15 +20,11 @@ layout: default
 
     <code>
     {<br/>
-        cookieless_mode: 'always',<br/>
         api_host: 'https://eu.i.posthog.com',<br/>
-        defaults: '2026-01-30',<br/>
-        person_profiles: 'never',<br/>
-        disable_persistence: true,<br/>
-        capture_pageview: true,<br/>
-        capture_pageleave: true,<br/>
+        person_profiles: 'identified_only',<br/>
+        cookieless_mode: 'always',<br/>
         disable_session_recording: true,<br/>
-        enable_heatmaps: false<br/>
+        enable_heatmaps: false,<br/>
     }<br/>
     </code>
 

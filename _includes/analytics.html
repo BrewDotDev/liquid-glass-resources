@@ -42,14 +42,10 @@
       (e.__SV = 1));
   })(document, window.posthog || []);
   posthog.init('phc_c4Nt94erHPRXO5iCX3shFJXASY9tQTwN9uGMcTnI8KP', {
-    cookieless_mode: 'always',
     api_host: 'https://eu.i.posthog.com',
-    defaults: '2026-01-30',
-    person_profiles: 'never',
-    disable_persistence: true,
-    capture_pageview: true,
-    capture_pageleave: true,
+    person_profiles: 'identified_only',
+    cookieless_mode: 'always',
     disable_session_recording: true,
-    enable_heatmaps: false
+    enable_heatmaps: false,
   });
 </script>
