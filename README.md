@@ -22,19 +22,19 @@ A Jekyll-powered directory of Liquid Glass development and design resources.
 
 ```bash
 BUNDLE_FORCE_RUBY_PLATFORM=true BUNDLE_PATH=vendor/bundle bundle install
-npm install
+bun install
 ```
 
 ### Rebuild CSS
 
 ```bash
-npm run build:css
+bun run build:css
 ```
 
 ### Run the site locally
 
 ```bash
-npm run serve
+bun run serve
 ```
 
 The site will be available at `http://127.0.0.1:4000`.
@@ -42,15 +42,15 @@ The site will be available at `http://127.0.0.1:4000`.
 ## Production build
 
 ```bash
-npm run build:site
-npm run smoke:site
+bun run build:site
+bun run smoke:site
 ```
 
 ## CSS workflow
 
 The production stylesheet is currently committed at `assets/dist-styles.css`.
 
-Tailwind and DaisyUI are present in `package.json`. CSS can now be rebuilt locally with `npm run build:css`, but the production deploy pipeline still does not rebuild CSS automatically; keep CSS changes explicit until that is wired into deployment.
+Tailwind and DaisyUI are present in `package.json`. CSS can now be rebuilt locally with `bun run build:css`, but the production deploy pipeline still does not rebuild CSS automatically; keep CSS changes explicit until that is wired into deployment.
 
 ## Deployment
 

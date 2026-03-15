@@ -38,7 +38,7 @@ Configure a Cloudflare Pages project with:
 - Commit `Gemfile.lock` and stop ignoring it.
 - Document the build and deployment process in `README.md`.
 - Exclude repo-internal files (`docs`, `config`, `skills`, repo metadata) from the generated site.
-- Keep the deployment migration focused on Jekyll hosting changes; CSS rebuild remains a manual repo script (`npm run build:css`) until deployment wiring is added.
+- Keep the deployment migration focused on Jekyll hosting changes; CSS rebuild remains a manual repo script (`bun run build:css`) until deployment wiring is added.
 
 ## Risks
 
@@ -54,7 +54,7 @@ Configure a Cloudflare Pages project with:
 2. Generate and commit `Gemfile.lock`.
 3. Create the Cloudflare Pages project and set `RUBY_VERSION=3.1.3` for Preview and Production.
 4. Validate the `pages.dev` preview deployment.
-5. Run `npm run smoke:site` locally and smoke test homepage, posts, subcollection pages, sitemap, assets, search, and analytics.
+5. Run `bun run smoke:site` locally and smoke test homepage, posts, subcollection pages, sitemap, assets, search, and analytics.
 6. Schedule a short content freeze.
 7. Move or confirm DNS in Cloudflare.
 8. Attach apex and `www` custom domains in Pages.

@@ -11,3 +11,5 @@ Use cases:
 - checking projects, documents, cycles, labels, or statuses
 
 Prefer the repo-local MCPorter config at `config/mcporter.json` instead of relying on global config.
+
+- Prefer `bun`/`bunx` over `npm`/`npx` for JavaScript tooling in this repo.

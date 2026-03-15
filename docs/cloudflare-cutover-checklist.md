@@ -17,7 +17,7 @@ Create or verify a Pages project with these settings:
 
 - `main` contains commits `fe1a8ad`, `da75d1a`, and `743cdeb` or later equivalents
 - Cloudflare preview deployment succeeds
-- `npm run build:site && npm run smoke:site` succeeds locally
+- `bun run build:site && bun run smoke:site` succeeds locally
 - Preview smoke checks:
   - homepage loads
   - search input renders
