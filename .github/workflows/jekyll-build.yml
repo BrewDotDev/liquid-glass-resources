@@ -27,3 +27,6 @@ jobs:
 
       - name: Build site
         run: bundle exec jekyll build -d _site
+
+      - name: Smoke check generated site
+        run: ./scripts/smoke-check.sh _site

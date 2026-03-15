@@ -35,6 +35,24 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - README.md
+  - config
+  - docs
+  - skills
+  - scripts
+  - vendor
+  - node_modules
+  - package-lock.json
+  - package.json
+  - tailwind.config.js
+  - .github
+  - .bundle
+  - .ruby-version
+  - Gemfile.lock
+
 defaults:
   - scope:
       path: ""

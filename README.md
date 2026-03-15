@@ -43,6 +43,7 @@ The site will be available at `http://127.0.0.1:4000`.
 
 ```bash
 npm run build:site
+npm run smoke:site
 ```
 
 ## CSS workflow
@@ -69,4 +70,4 @@ The site is being migrated to Cloudflare Pages with:
   - `liquidglassresources.com`
   - `www.liquidglassresources.com`
 
-See `docs/cloudflare-pages-migration.md` for the implementation checklist, rollout plan, and rollback steps.
+See `docs/cloudflare-pages-migration.md` for the implementation checklist, rollout plan, and rollback steps. Use `scripts/smoke-check.sh` after builds or previews to verify the expected pages and ensure repo-internal files are not being published.
