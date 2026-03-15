@@ -46,7 +46,7 @@ mcporter call linear.list_issues team=Brew query="liquid glass" --output json
 mcporter call linear.get_issue id=<issue-id> --output json
 mcporter call linear.save_issue team=Brew title="Add X" description="..." priority=2 --output json
 mcporter call linear.save_issue id=<issue-id> state="In Progress" --output json
-mcporter call linear.create_comment issueId=<issue-id> body="Implemented in commit abc123" --output json
+mcporter call linear.save_comment issueId=<issue-id> body="Implemented in commit abc123" --output json
 mcporter call linear.list_projects --output json
 mcporter call linear.list_documents query="Liquid Glass" --output json
 mcporter call linear.list_issue_statuses team=Brew --output json
