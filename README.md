@@ -71,3 +71,5 @@ The site is being migrated to Cloudflare Pages with:
   - `www.liquidglassresources.com`
 
 See `docs/cloudflare-pages-migration.md` for the implementation checklist, rollout plan, and rollback steps. Use `scripts/smoke-check.sh` after builds or previews to verify the expected pages and ensure repo-internal files are not being published.
+
+If GitHub Pages still appears live after this repo change, also disable GitHub Pages in the GitHub repository settings and remove any old custom-domain binding there.
