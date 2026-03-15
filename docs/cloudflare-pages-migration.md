@@ -37,7 +37,7 @@ Configure a Cloudflare Pages project with:
 - Add `.ruby-version` to pin the Ruby version used by Cloudflare Pages and local development.
 - Commit `Gemfile.lock` and stop ignoring it.
 - Document the build and deployment process in `README.md`.
-- Keep the initial migration Ruby-only; do not couple this with a Tailwind CI rebuild change.
+- Keep the deployment migration focused on Jekyll hosting changes; CSS rebuild remains a manual repo script (`npm run build:css`) until deployment wiring is added.
 
 ## Risks
 
