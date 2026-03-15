@@ -16,9 +16,9 @@ Configure a Cloudflare Pages project with:
 
 - Production branch: `main`
 - Root directory: `/`
-- Build command: `bundle install && bundle exec jekyll build -d _site`
+- Build command: `jekyll build`
 - Output directory: `_site`
-- Ruby version: `3.1.3`
+- Environment variable: `RUBY_VERSION=3.1.3` on Preview and Production
 
 ## Required DNS changes
 
@@ -51,7 +51,7 @@ Configure a Cloudflare Pages project with:
 
 1. Commit repo prep changes.
 2. Generate and commit `Gemfile.lock`.
-3. Create the Cloudflare Pages project.
+3. Create the Cloudflare Pages project and set `RUBY_VERSION=3.1.3` for Preview and Production.
 4. Validate the `pages.dev` preview deployment.
 5. Smoke test homepage, posts, subcollection pages, sitemap, assets, search, and analytics.
 6. Schedule a short content freeze.

@@ -56,8 +56,9 @@ Production currently deploys from GitHub Actions to GitHub Pages using `.github/
 The site is being migrated to Cloudflare Pages with:
 
 - Production branch: `main`
-- Build command: `bundle install && bundle exec jekyll build -d _site`
+- Build command: `jekyll build`
 - Output directory: `_site`
+- Environment variable: `RUBY_VERSION=3.1.3`
 - Custom domains:
   - `liquidglassresources.com`
   - `www.liquidglassresources.com`
