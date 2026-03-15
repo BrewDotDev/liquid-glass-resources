@@ -149,13 +149,19 @@ Keep Actions enabled.
 Expected workflows in repo:
 
 - `.github/workflows/jekyll-build.yml` remains enabled for build validation
-- `.github/workflows/jekyll-gh-pages.yml` remains temporarily available only until Cloudflare production is stable and rollback risk is low
+- `.github/workflows/cloudflare-pages-deploy.yml` deploys `_site` to Cloudflare Pages on pushes to `main`
+- `.github/workflows/jekyll-gh-pages.yml` remains temporarily available only as a manual rollback path until Cloudflare production is stable and rollback risk is low
+
+Required GitHub repository secrets for Cloudflare deploys:
+
+- `CLOUDFLARE_ACCOUNT_ID`
+- `CLOUDFLARE_API_TOKEN`
 
 Recommended sequence:
 
-1. Keep both workflows while Cloudflare preview and cutover are in progress.
-2. After Cloudflare production is stable for at least 24 hours, disable GitHub Pages serving.
-3. Then remove or archive `.github/workflows/jekyll-gh-pages.yml`.
+1. Keep the validation workflow and Cloudflare deploy workflow enabled.
+2. Keep the legacy GitHub Pages workflow manual-only during the rollback window.
+3. After Cloudflare production is stable for at least 24 hours, remove or archive `.github/workflows/jekyll-gh-pages.yml`.
 
 ## 6) Exact cutover order
 

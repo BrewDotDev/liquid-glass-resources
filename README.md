@@ -58,10 +58,13 @@ Tailwind and DaisyUI are present in `package.json`. CSS can now be rebuilt local
 
 Production currently deploys from GitHub Actions to GitHub Pages using `.github/workflows/jekyll-gh-pages.yml`.
 
-### Target deployment
+### Cloudflare production deployment
 
-The site is being migrated to Cloudflare Pages with:
+Production now deploys to Cloudflare Pages from GitHub Actions using `.github/workflows/cloudflare-pages-deploy.yml`.
 
+Expected Cloudflare configuration:
+
+- Project name: `liquid-glass-resources`
 - Production branch: `main`
 - Build command: `jekyll build`
 - Output directory: `_site`
@@ -69,6 +72,13 @@ The site is being migrated to Cloudflare Pages with:
 - Custom domains:
   - `liquidglassresources.com`
   - `www.liquidglassresources.com`
+
+Required GitHub repository secrets:
+
+- `CLOUDFLARE_ACCOUNT_ID`
+- `CLOUDFLARE_API_TOKEN`
+
+The API token should have Cloudflare Pages edit access for the target account.
 
 See `docs/cloudflare-pages-migration.md` for the implementation checklist, rollout plan, and rollback steps. Use `scripts/smoke-check.sh` after builds or previews to verify the expected pages and ensure repo-internal files are not being published.
 
