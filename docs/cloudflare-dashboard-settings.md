@@ -62,6 +62,11 @@ Recommended implementation:
 - Use Cloudflare Bulk Redirects for:
   - `www.liquidglassresources.com` → `https://liquidglassresources.com`
   - `<project>.pages.dev` → `https://liquidglassresources.com`
+- For the `www` redirect helper record, create:
+  - Type: `A`
+  - Name: `www`
+  - IPv4 address: `192.0.2.1`
+  - Proxy status: `Proxied`
 
 Bulk Redirect settings for both rules:
 
