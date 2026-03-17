@@ -6,6 +6,17 @@
   <link rel="stylesheet" href="{{ '/assets/dist-styles.css' | relative_url }}" />
   <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}" />
   {% seo %}
+  <!-- Google Consent Mode v2 - must be before AdSense script -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'denied'
+    });
+  </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2696871288469966"
  crossorigin="anonymous"></script>
 </head>
